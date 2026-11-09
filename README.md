@@ -1,14 +1,14 @@
 # 衡量 · 投资组合分析与调仓模拟
 
-固定行情快照下的本地全栈原型，对应任务书 **VC-FIN-001 / V3.0**。支持组合概览、标的/行业集中度检查、顺序调仓模拟、命名保存与只读重开。后端承担全部业务计算和校验，SQLite 保存方案；无需外部行情、账号、密钥或前端构建。
+本项目是我使用 Codex 辅助完成的固定行情快照下的本地全栈原型，对应任务书 **VC-FIN-001 / V3.0**。支持组合概览、标的/行业集中度检查、顺序调仓模拟、命名保存与只读重开。后端承担全部业务计算和校验，SQLite 保存方案；无需外部行情、账号、密钥或前端构建。
 
 ## 先看交付材料
 
-- [PLAN.md](PLAN.md)：实现前留存的开工方案，交付时未回写。
+- [PLAN.md](PLAN.md)：开工方案的候选人视角整理版；[实现前原稿](attachments/plan-original.txt)按原字节归档，保留开工记录。
 - [DESIGN.md](DESIGN.md)：需求、数据、接口、取舍、AI 协作记录与复盘。
 - [VERIFY.md](VERIFY.md)：实际执行的检查、数值、问题修正和截图。
 - [REVIEW.md](REVIEW.md)：需求理解、功能完整性、工程质量、产品体验与 AI 协作的五维复审及修复证据。
-- [原始任务书](attachments/requirements.pdf)、[示例数据](attachments/sample-data.json)：从用户压缩包按原字节提取。
+- [原始任务书](attachments/requirements.pdf)、[示例数据](attachments/sample-data.json)：从测评附件压缩包按原字节提取。
 - [截图目录](output/playwright/)；[测试原始输出](output/verification/tests.txt)；[浏览器及重启结果](output/verification/browser-results.json)。
 
 ## 启动（Windows PowerShell）
@@ -89,7 +89,7 @@ tests/                    35 个计算与接口测试方法
 scripts/verify_browser.py 浏览器验收、真实重启、截图
 scripts/review_browser.py  五维复审的交互边界验证
 scripts/package.py        生成不含依赖和运行数据库的提交压缩包
-attachments/              原始 PDF / JSON、文本提取、开工文件哈希
+attachments/              原始 PDF / JSON、文本提取、开工原稿与哈希
 output/                   验证记录、截图与提交包
 run.py                    本机服务入口
 requirements.lock         运行依赖完整固定版本
@@ -99,4 +99,4 @@ requirements.lock         运行依赖完整固定版本
 
 ## 范围与说明
 
-FR-01～FR-05 核心范围均已实现和验证。未扩展登录、行情接入、真实交易、费用税收、收益预测、方案编辑删除及公网部署。实际投入时间和 AI 使用情况见 DESIGN.md；截图和测试属于本次真实执行证据，不代表全平台或生产环境认证。
+我将实现范围限定为 FR-01～FR-05，核心流程均已实现并通过现有检查。未扩展登录、行情接入、真实交易、费用税收、收益预测、方案编辑删除及公网部署。实际投入时间和 AI 使用情况见 DESIGN.md；测试、截图及核查由 AI 调用工具执行，原始记录随项目保留，验证范围见 VERIFY.md。

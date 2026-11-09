@@ -1,6 +1,6 @@
 # 验证记录
 
-执行日期：2026-11-09，北京时间。运行环境：Windows，Python 3.11，FastAPI 0.109.0；浏览器为 Edge 156.0.4314.58，Playwright Python 1.62.0。测试均由本次实际工具执行，不是计划清单。源码哈希和执行时间见 [浏览器原始结果](output/verification/browser-results.json)。
+执行日期：2026-11-09，北京时间。我使用 Codex 辅助验证，测试和截图由 AI 调用工具执行，以下记录实际结果及修正过程。运行环境：Windows，Python 3.11，FastAPI 0.109.0；浏览器为 Edge 156.0.4314.58，Playwright Python 1.62.0。源码哈希和执行时间见 [浏览器原始结果](output/verification/browser-results.json)。
 
 ## 基准验收
 
@@ -16,7 +16,7 @@
 
 `python -m unittest discover -v`：最新复审版本 **35 个测试方法通过**，见 [review-tests.txt](output/verification/review-tests.txt)；首次版本 31 个方法的输出保留在 [tests.txt](output/verification/tests.txt)。参数化子用例包含多种数量类型及无效操作，另有固定种子的 20 组随机有效交易序列。
 
-另外从零创建 `.venv`，按 `requirements-dev.txt`（包含运行锁文件）安装了固定版本依赖；`pip check` 返回 `No broken requirements found`，同一套 31 个测试全部通过。见 [全新环境测试输出](output/verification/clean-environment-tests.txt) 和 [实际安装版本](output/verification/installed-dependencies.txt)。安装过程中代理连接曾自动重试，最终安装成功；运行时不需要外网。
+AI 还从零创建 `.venv`，按 `requirements-dev.txt`（包含运行锁文件）安装固定版本依赖；`pip check` 返回 `No broken requirements found`，当时的 31 个测试全部通过。见 [全新环境测试输出](output/verification/clean-environment-tests.txt) 和 [实际安装版本](output/verification/installed-dependencies.txt)。安装过程中代理连接曾自动重试，最终安装成功；运行时不需要外网。
 
 | 检查 | 实际结果 |
 |---|---|
@@ -35,7 +35,7 @@
 | 移动端 | 390×844 视窗无整页横向溢出；宽表格在容器内滚动 |
 | 浏览器运行 | 全流程无未捕获 JavaScript 异常；后端有预期的 422/404 记录 |
 | JavaScript 语法 | `node --check frontend/app.js` 通过 |
-| 输入材料 | ZIP 校验通过；PDF/JSON 提取前后哈希一致；PLAN.md 开工哈希保持一致 |
+| 输入材料 | ZIP 校验通过；PDF/JSON 提取前后哈希一致；开工方案原稿的哈希与开工记录一致，原稿现归档于 attachments/plan-original.txt |
 
 浏览器脚本共 **13 个检查点**，与上表并非简单相加的独立测试数量。保存详情来自自动化脚本的隔离数据库，不会预先写入评审者的默认库。
 
@@ -43,7 +43,7 @@
 
 ## 截图与视觉检查
 
-以下是实际运行截图，未经拼接或重绘。桌面视窗 1440×1100，截图采用整页高度；已检查数字、错误文本、表格及手机布局。
+以下是我保留的实际运行截图，未经拼接或重绘。桌面视窗 1440×1100，截图采用整页高度；AI 查看截图并核查了数字、错误文本、表格及手机布局。
 
 ### 初始组合
 
