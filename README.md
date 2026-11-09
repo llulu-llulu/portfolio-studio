@@ -8,6 +8,7 @@
 - [DESIGN.md](DESIGN.md)：需求、数据、接口、取舍、AI 协作记录与复盘。
 - [VERIFY.md](VERIFY.md)：实际执行的检查、数值、问题修正和截图。
 - [REVIEW.md](REVIEW.md)：需求理解、功能完整性、工程质量、产品体验与 AI 协作的五维复审及修复证据。
+- [DELIVERY.md](DELIVERY.md)：实际投入、交付范围、已知限制及提交包说明。
 - [原始任务书](attachments/requirements.pdf)、[示例数据](attachments/sample-data.json)：从测评附件压缩包按原字节提取。
 - [截图目录](output/playwright/)；[测试原始输出](output/verification/tests.txt)；[浏览器及重启结果](output/verification/browser-results.json)。
 
@@ -48,7 +49,7 @@ python3.11 -m venv .venv
 4. 输入名称并保存，进入只读详情。刷新页面，再停止服务并用相同命令重启，从「已保存方案」点击同一方案，结果保持一致。保存详情的网址 `/#plan/<id>` 也可直接重开。
 5. 返回概览，原始现金仍为 **20,000.00**，A01/A02 均 **400 股**。清空模拟后测试买入 A01 **201**、卖出 **401**、数量 **0 / -1 / 1.5**；均应被拒绝，已接受的结果不变。
 
-「清空重来」只清空当前未保存模拟；已保存方案只读。临时模拟只在本次页面内存中，**刷新会丢失未保存操作**；已保存方案不受影响。
+「清空重来」清空当前模拟编辑区的交易操作和计算结果，原始组合及数据库中已保存的方案不变。临时模拟只在本次页面内存中，**刷新会丢失未保存操作**；已保存方案不受影响。
 
 ## 数据存放与运行参数
 
@@ -76,7 +77,13 @@ python3.11 -m venv .venv
 
 默认使用已安装的 Edge，自动在 **8765** 端口启动/停止测试服务，使用 `tmp/qa` 独立数据库。若只有 Chrome，先设置 `$env:QA_BROWSER_CHANNEL = 'chrome'`；macOS/Linux 可使用 `QA_BROWSER_CHANNEL=chrome`。输出会更新 `output/playwright` 和浏览器结果记录，包含一次真正的服务进程重启。仅截图验证需要 Playwright，正常运行不需要。
 
-五维复审新增的交互检查：`python scripts/review_browser.py`，使用 **8766** 端口和独立数据库，覆盖未保存保护、慢请求导航、保存失败重试、规则文案及键盘焦点。
+安装上述浏览器验证依赖后，可运行五维复审新增的交互检查：
+
+```powershell
+.\.venv\Scripts\python.exe scripts/review_browser.py
+```
+
+该检查使用 **8766** 端口和独立数据库，覆盖未保存保护、慢请求导航、保存失败重试、规则文案及键盘焦点。
 
 ## 工程结构
 

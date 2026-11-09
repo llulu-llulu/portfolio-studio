@@ -61,7 +61,7 @@ AI 还从零创建 `.venv`，按 `requirements-dev.txt`（包含运行锁文件�
 
 ![保存方案详情](output/playwright/04-saved-plan.png)
 
-其余截图：[方案列表](output/playwright/05-plan-list.png)、[手机概览](output/playwright/06-mobile-overview.png)、[手机模拟](output/playwright/07-mobile-simulation.png)。
+其余截图：[方案列表](output/playwright/05-plan-list.png)、[手机概览](output/playwright/06-mobile-overview.png)、[手机模拟](output/playwright/07-mobile-simulation.png)、[专项交互检查页面](output/playwright/08-review-simulation.png)。
 
 ## 发现、修正与验证边界
 
