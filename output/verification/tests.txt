@@ -1,0 +1,36 @@
+test_AC05_save_reopen_new_application_and_original_isolation (tests.test_api.ApiTests.test_AC05_save_reopen_new_application_and_original_isolation) ... ok
+test_api_rejects_invalid_quantities (tests.test_api.ApiTests.test_api_rejects_invalid_quantities) ... ok
+test_engine_version_mismatch_is_explicit (tests.test_api.ApiTests.test_engine_version_mismatch_is_explicit) ... ok
+test_history_uses_saved_snapshot_after_seed_changes (tests.test_api.ApiTests.test_history_uses_saved_snapshot_after_seed_changes) ... ok
+test_idempotent_save_and_conflicting_retry (tests.test_api.ApiTests.test_idempotent_save_and_conflicting_retry) ... ok
+test_invalid_plan_not_persisted (tests.test_api.ApiTests.test_invalid_plan_not_persisted) ... ok
+test_malformed_json_unknown_fields_and_forged_result (tests.test_api.ApiTests.test_malformed_json_unknown_fields_and_forged_result) ... ok
+test_missing_plan (tests.test_api.ApiTests.test_missing_plan) ... ok
+test_name_validation_and_empty_plan (tests.test_api.ApiTests.test_name_validation_and_empty_plan) ... ok
+test_read_portfolio_and_simulation (tests.test_api.ApiTests.test_read_portfolio_and_simulation) ... ok
+test_same_name_different_ids_are_allowed (tests.test_api.ApiTests.test_same_name_different_ids_are_allowed) ... ok
+test_stale_snapshot (tests.test_api.ApiTests.test_stale_snapshot) ... ok
+test_static_serving_does_not_expose_local_data (tests.test_api.ApiTests.test_static_serving_does_not_expose_local_data) ... ok
+test_unavailable_storage_returns_retryable_error (tests.test_api.ApiTests.test_unavailable_storage_returns_retryable_error) ... ok
+test_AC01_initial_values (tests.test_domain.DomainTests.test_AC01_initial_values) ... ok
+test_AC02_equal_threshold_is_allowed (tests.test_domain.DomainTests.test_AC02_equal_threshold_is_allowed) ... ok
+test_AC03_sequential_trades (tests.test_domain.DomainTests.test_AC03_sequential_trades) ... ok
+test_AC04_insufficient_cash (tests.test_domain.DomainTests.test_AC04_insufficient_cash) ... ok
+test_AC04_oversell (tests.test_domain.DomainTests.test_AC04_oversell) ... ok
+test_AC04_strict_integer_quantity (tests.test_domain.DomainTests.test_AC04_strict_integer_quantity) ... ok
+test_failure_does_not_mutate_snapshot_or_previous_result (tests.test_domain.DomainTests.test_failure_does_not_mutate_snapshot_or_previous_result) ... ok
+test_invalid_seed_fails_fast (tests.test_domain.DomainTests.test_invalid_seed_fails_fast) ... ok
+test_money_is_exact_to_cents (tests.test_domain.DomainTests.test_money_is_exact_to_cents) ... ok
+test_operation_limit_and_empty_simulation (tests.test_domain.DomainTests.test_operation_limit_and_empty_simulation) ... ok
+test_random_valid_sequences_conserve_assets (tests.test_domain.DomainTests.test_random_valid_sequences_conserve_assets) ... ok
+test_sale_can_fund_following_purchase_but_not_prior_purchase (tests.test_domain.DomainTests.test_sale_can_fund_following_purchase_but_not_prior_purchase) ... ok
+test_sale_checks_current_holdings (tests.test_domain.DomainTests.test_sale_checks_current_holdings) ... ok
+test_sell_all_positions_to_cash (tests.test_domain.DomainTests.test_sell_all_positions_to_cash) ... ok
+test_threshold_check_precedes_display_rounding (tests.test_domain.DomainTests.test_threshold_check_precedes_display_rounding) ... ok
+test_unknown_symbol_and_side (tests.test_domain.DomainTests.test_unknown_symbol_and_side) ... ok
+test_zero_total_has_defined_weights (tests.test_domain.DomainTests.test_zero_total_has_defined_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.424s
+
+OK

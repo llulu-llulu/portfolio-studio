@@ -1,0 +1,78 @@
+{
+  "executed_at": "2026-11-09T07:39:34.687046+00:00",
+  "browser": "156.0.4314.58",
+  "checks": [
+    {
+      "check": "Keyboard focus restored after calculation",
+      "expected": "quantity",
+      "actual": "",
+      "passed": false
+    },
+    {
+      "check": "Unsaved draft protected on overview",
+      "expected": true,
+      "actual": false,
+      "passed": false
+    },
+    {
+      "check": "Save-specific loading label",
+      "expected": true,
+      "actual": false,
+      "passed": false
+    },
+    {
+      "check": "Duplicate submit disabled",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Late save does not hijack navigation",
+      "expected": "#overview",
+      "actual": "#plan/6b417065-77f4-4e8d-8c27-34d46bde81f0",
+      "passed": false
+    },
+    {
+      "check": "Saved draft does not warn on leaving",
+      "expected": false,
+      "actual": true,
+      "passed": false
+    },
+    {
+      "check": "Non-JSON server error is understandable",
+      "expected": true,
+      "actual": false,
+      "passed": false
+    },
+    {
+      "check": "Retry recovers saved list",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Rule captions follow server snapshot",
+      "expected": true,
+      "actual": false,
+      "passed": false
+    },
+    {
+      "check": "No uncaught page errors",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    }
+  ],
+  "all_passed": false,
+  "source_version": "original submission",
+  "source_sha256": {
+    "frontend/app.js": "afceef435c721b35401a2ec976e36aff3bcf3bc260ba5864ba212451cf3b15d5",
+    "frontend/favicon.svg": "0daf0c07d411a146e62a7c3ba1a4be4279c5d22995dff059ee423771c8f78471",
+    "frontend/index.html": "faeaa3e88d511d3c2c4a40f51cb2cb00d24568236baadc7597ffa01827511bec",
+    "frontend/style.css": "1f262455f2d0726b5e3072b1131fcf79d68ed97825fe6390ae4bfc6e0933b8ca",
+    "backend/__init__.py": "5a96c5b7013b70b362f93cc0ed027577ede168353a4faeb7c5f27f55b2e33890",
+    "backend/app.py": "01f8433b70bb796d859771b140017907dcfe719c27006101698135ae77380d6e",
+    "backend/domain.py": "45eb20bbddfc8ef62750a61b6b958b35c5c6303bb897b40ad94e9399d32911cd",
+    "backend/storage.py": "4212ba5b3f7c85dec6931d5166dcb7a4797f9033393665b4546a1665ccc16614"
+  }
+}

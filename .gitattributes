@@ -1,0 +1,5 @@
+# Preserve attachment bytes and the source hashes captured in verification logs.
+* -text
+*.png binary
+*.pdf binary
+*.zip binary

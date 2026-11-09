@@ -1,0 +1,63 @@
+INFO:     Started server process [61500]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:58120 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49240 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54980 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54980 - "GET /static/format.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/api.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51496 - "GET /static/components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60635 - "GET /static/editor.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /api/portfolio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /api/plans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "POST /api/simulations HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57927 - "POST /api/simulations HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57927 - "POST /api/simulations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "POST /api/simulations HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "POST /api/simulations HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:57927 - "POST /api/plans HTTP/1.1" 201 Created
+INFO:     127.0.0.1:57927 - "GET /api/plans/5a87676f-c7f2-4f89-9056-b044f0c5eefe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62972 - "GET /api/plans/5a87676f-c7f2-4f89-9056-b044f0c5eefe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61949 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61949 - "GET /static/format.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57927 - "GET /static/api.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50571 - "GET /static/editor.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60376 - "GET /static/components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50571 - "GET /api/portfolio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50571 - "GET /api/plans/5a87676f-c7f2-4f89-9056-b044f0c5eefe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60376 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     Started server process [59300]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50580 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/style.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /static/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58798 - "GET /static/format.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/api.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57315 - "GET /static/components.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50277 - "GET /static/editor.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50277 - "GET /api/portfolio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50277 - "GET /api/plans/5a87676f-c7f2-4f89-9056-b044f0c5eefe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50278 - "GET /api/plans/5a87676f-c7f2-4f89-9056-b044f0c5eefe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50278 - "GET /api/portfolio HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /api/plans HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /api/plans/5a87676f-c7f2-4f89-9056-b044f0c5eefe HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /api/plans/nonexistent HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /static/favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49626 - "GET /api/plans HTTP/1.1" 200 OK

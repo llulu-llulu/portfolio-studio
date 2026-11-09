@@ -1,0 +1,124 @@
+{
+  "executed_at": "2026-11-09T07:42:12.041333+00:00",
+  "browser": "156.0.4314.58",
+  "checks": [
+    {
+      "check": "Keyboard focus restored after calculation",
+      "expected": "quantity",
+      "actual": "quantity",
+      "passed": true
+    },
+    {
+      "check": "Unsaved draft protected on overview",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Save-specific loading label",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Duplicate submit disabled",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Late save does not hijack navigation",
+      "expected": "#overview",
+      "actual": "#overview",
+      "passed": true
+    },
+    {
+      "check": "Saved draft does not warn on leaving",
+      "expected": false,
+      "actual": false,
+      "passed": true
+    },
+    {
+      "check": "Non-JSON server error is understandable",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Retry recovers saved list",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Rule captions follow server snapshot",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Save error beside save form with draft retained",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Save retry clears failure and persists plan",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Plan name displayed as text, not executed HTML",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Rounded equality explained without suppressing warning",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Calculation loading label and disabled submit",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Navigation preserves in-flight lock",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "Late calculation commits once",
+      "expected": true,
+      "actual": true,
+      "passed": true
+    },
+    {
+      "check": "No uncaught page errors",
+      "expected": [],
+      "actual": [],
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "source_version": "current working tree",
+  "source_sha256": {
+    "frontend/api.js": "8a252693158f32a6961b4e160d291bf1c55ace5a24b8590bb1572b103439cb8c",
+    "frontend/app.js": "45326c5a3194f68893dc8c168737924b3dcd16e33851d78c37423b82a051c801",
+    "frontend/components.js": "3830124434a841dc716cf43c4e657f07d93e4a15a5f95147c54464dd37404122",
+    "frontend/editor.js": "fed02d45fc5acaf504fa275d86ba33ea3d7b24b19edaff070ee8d64b42fe5203",
+    "frontend/favicon.svg": "0daf0c07d411a146e62a7c3ba1a4be4279c5d22995dff059ee423771c8f78471",
+    "frontend/format.js": "be06a09fd2d87ca0ad20932467746665c9526767a6cfabe4817b3eb7230beda7",
+    "frontend/index.html": "faeaa3e88d511d3c2c4a40f51cb2cb00d24568236baadc7597ffa01827511bec",
+    "frontend/style.css": "37466fc637570aa0c12086efa0565e2700ffc8b1b998e748cfcafc6cc2bcfa91",
+    "backend/__init__.py": "5a96c5b7013b70b362f93cc0ed027577ede168353a4faeb7c5f27f55b2e33890",
+    "backend/app.py": "3a771a6a8fc9bce47deeba73b83c5a27c0216203eb9700d472b2eda8b9e1d1fe",
+    "backend/domain.py": "45eb20bbddfc8ef62750a61b6b958b35c5c6303bb897b40ad94e9399d32911cd",
+    "backend/storage.py": "4212ba5b3f7c85dec6931d5166dcb7a4797f9033393665b4546a1665ccc16614"
+  }
+}

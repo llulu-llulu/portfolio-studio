@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+data/*.db*
+tmp/
+.playwright-cli/
+node_modules/
+output/*.zip
+*.zip
+output/runtime/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

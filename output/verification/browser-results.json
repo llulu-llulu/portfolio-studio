@@ -1,0 +1,96 @@
+{
+  "executed_at": "2026-11-09T07:37:16.945300+00:00",
+  "browser": "156.0.4314.58",
+  "channel": "msedge",
+  "viewport": [
+    1440,
+    1100
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "saved_plan_id": "5a87676f-c7f2-4f89-9056-b044f0c5eefe",
+  "checks": [
+    {
+      "check": "AC-01 browser",
+      "result": "PASS",
+      "detail": "100,000.00 total; 20,000.00 cash; two warnings"
+    },
+    {
+      "check": "Empty plans",
+      "result": "PASS",
+      "detail": "Explicit empty state and create action"
+    },
+    {
+      "check": "AC-04 browser",
+      "result": "PASS",
+      "detail": "Buy 201, sell 401, 0, -1, 1.5 rejected; state unchanged"
+    },
+    {
+      "check": "AC-02 browser",
+      "result": "PASS",
+      "detail": "Sell A01 100; cash 30,000.00; all warnings cleared"
+    },
+    {
+      "check": "AC-03 browser",
+      "result": "PASS",
+      "detail": "Buy A02 100 next; 25,000.00 cash; tech 55.00%"
+    },
+    {
+      "check": "Failure atomicity",
+      "result": "PASS",
+      "detail": "Invalid third operation leaves the accepted two-operation result intact"
+    },
+    {
+      "check": "Saved URL reload",
+      "result": "PASS",
+      "detail": "Readonly scenario survives browser refresh"
+    },
+    {
+      "check": "AC-05 real process restart",
+      "result": "PASS",
+      "detail": "PID 61500 -> 59300; saved response identical; original cash 20000 and quantities 400/400"
+    },
+    {
+      "check": "Reopen from list",
+      "result": "PASS",
+      "detail": "List contains persisted scenario and opens readonly detail"
+    },
+    {
+      "check": "Mobile layout",
+      "result": "PASS",
+      "detail": "390px viewport; no document horizontal overflow; tables scroll inside container"
+    },
+    {
+      "check": "Missing scenario",
+      "result": "PASS",
+      "detail": "Friendly error with retry and return actions"
+    },
+    {
+      "check": "Offline recovery",
+      "result": "PASS",
+      "detail": "Network failure offers retry; reconnect recovers list"
+    },
+    {
+      "check": "JavaScript runtime",
+      "result": "PASS",
+      "detail": "No uncaught page errors during all flows"
+    }
+  ],
+  "uncaught_errors": [],
+  "source_sha256": {
+    "backend\\__init__.py": "5a96c5b7013b70b362f93cc0ed027577ede168353a4faeb7c5f27f55b2e33890",
+    "backend\\app.py": "3a771a6a8fc9bce47deeba73b83c5a27c0216203eb9700d472b2eda8b9e1d1fe",
+    "backend\\domain.py": "45eb20bbddfc8ef62750a61b6b958b35c5c6303bb897b40ad94e9399d32911cd",
+    "backend\\storage.py": "4212ba5b3f7c85dec6931d5166dcb7a4797f9033393665b4546a1665ccc16614",
+    "frontend\\api.js": "8a252693158f32a6961b4e160d291bf1c55ace5a24b8590bb1572b103439cb8c",
+    "frontend\\app.js": "45326c5a3194f68893dc8c168737924b3dcd16e33851d78c37423b82a051c801",
+    "frontend\\components.js": "3830124434a841dc716cf43c4e657f07d93e4a15a5f95147c54464dd37404122",
+    "frontend\\editor.js": "fed02d45fc5acaf504fa275d86ba33ea3d7b24b19edaff070ee8d64b42fe5203",
+    "frontend\\favicon.svg": "0daf0c07d411a146e62a7c3ba1a4be4279c5d22995dff059ee423771c8f78471",
+    "frontend\\format.js": "be06a09fd2d87ca0ad20932467746665c9526767a6cfabe4817b3eb7230beda7",
+    "frontend\\index.html": "faeaa3e88d511d3c2c4a40f51cb2cb00d24568236baadc7597ffa01827511bec",
+    "frontend\\style.css": "37466fc637570aa0c12086efa0565e2700ffc8b1b998e748cfcafc6cc2bcfa91"
+  }
+}

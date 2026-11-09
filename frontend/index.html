@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#116b57">
+  <meta name="description" content="基于固定行情快照的组合分析与调仓模拟，支持集中度检查及方案保存。">
+  <title>衡量 · 投资组合工作台</title>
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="/static/style.css">
+  <script type="module" src="/static/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要内容</a>
+  <aside class="sidebar">
+    <a href="#overview" class="brand"><span class="brand-mark">衡</span><span>衡量<small>PORTFOLIO STUDIO</small></span></a>
+    <div class="workspace-label">投资组合工作台</div>
+    <nav aria-label="主导航">
+      <a href="#overview" data-nav="overview"><span aria-hidden="true">▦</span>组合概览<span class="nav-no">01</span></a>
+      <a href="#simulate" data-nav="simulate"><span aria-hidden="true">⇄</span>调仓模拟<span class="nav-no">02</span></a>
+      <a href="#plans" data-nav="plans"><span aria-hidden="true">▤</span>已保存方案<span class="nav-no">03</span></a>
+    </nav>
+    <div class="sidebar-note"><span class="live-dot"></span>本地分析空间<p>固定行情 · 虚构数据<br>每一个调整，先看清再保存。</p></div>
+    <div class="sidebar-bottom"><span class="avatar">D</span><div>演示组合<small>DEMO-001 · CNY</small></div><span class="local-tag">本地</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div><span class="breadcrumb">工作台</span><span class="slash">/</span><span id="breadcrumb-current">组合概览</span></div><span class="snapshot-badge"><span class="live-dot"></span>固定快照 · 2026.11.02</span></header>
+    <main id="main" tabindex="-1"><div class="loading" role="status">正在读取组合数据…</div></main>
+    <footer><span>衡量 PORTFOLIO STUDIO</span><span>集中度分析与调仓模拟 · 全部为虚构测评数据</span></footer>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>

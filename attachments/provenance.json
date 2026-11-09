@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-11-09T14:48:00+08:00",
+  "note": "PLAN.md captured before application source implementation; no Git repository existed at start.",
+  "sha256": {
+    "PLAN.md": "2192c52189101a4037808907366d4b290d6720702286729b9c44e63a4eb43f67",
+    "attachments/requirements.pdf": "a205d8adc1b2aa8211bd26e7aad229607c3a0a16f57a1523651e00cbe73aa82d",
+    "attachments/sample-data.json": "46fe51f57c21f34636b727df1b888bf501ee4b800c95fb36db2b803d071be6d7"
+  }
+}
